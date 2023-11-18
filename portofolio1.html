@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio1</title>
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+      body {
+        width: 1519px;
+        margin: 0;
+        background: salmon;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        /* display: flex;
+        flex-direction: column;
+        align-items: center; */
+      }
+      .nav-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 20px 50px;
+        background: lemonchiffon;
+      }
+      .left-nav {
+        font-weight: 1000;
+        font-size: 70px;
+        text-transform: uppercase;
+      }
+      .right-nav {
+        margin: 10px 10px;
+        text-transform: capitalize;
+        font-weight: 600;
+        font-size: 20px;
+        letter-spacing: 0.2px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+      }
+      .right-nav a {
+        text-decoration: none;
+        color: inherit;
+        margin: 0px 16px;
+      }
+      .right-nav a:hover {
+        color: darkred;
+        cursor: pointer;
+      }
+      .img-container {
+        padding: 40px 20px;
+      }
+      .page1 {
+        text-align: right;
+        max-width: 100%;
+        display: flex;
+        flex-direction: row;
+        line-height: 100px;
+        background: salmon;
+        border-bottom: 10px solid white;
+        margin: 0px 80px;
+      }
+      .page1 h1 {
+        text-transform: uppercase;
+        font-size: 35px;
+        color: black;
+        text-align: right;
+        font-weight: 1000;
+        line-height: 50px;
+        padding: 40px 20px;
+      }
+      .page1 p {
+        font-size: 20px;
+        font-weight: 600;
+        color: black;
+        text-align: justify;
+        line-height: 30px;
+        padding: 0px 10px;
+      }
+      .page2 {
+        padding: 0px 0px;
+        height: 1100px;
+        width: 1519px;
+        background: url('journey.jpg');
+        display: flex;
+        justify-content: center;
+      }
+      .page2 h1 {
+        text-transform: uppercase;
+        font-size: 60px;
+        font-weight: 1000;
+      }
+      .journey {
+        max-width: 1000px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .journey h1 {
+        padding: 40px 10px;
+      }
+      .journey h4 {
+        font-size: 30px;
+        padding: 0px 10px;
+        background: salmon;
+        border-radius: 50px;
+        text-align: center;
+        text-transform: uppercase;
+      }
+      .journey a {
+        padding: 30px 0px;
+        background: lemonchiffon;
+        text-align: center;
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 50px;
+        color: inherit;
+      }
+      .journey a:hover {
+        color: red;
+        cursor: pointer;
+      }
+      .contact {
+        display: flex;
+        flex-direction: column;
+        padding: 60px;
+        align-items: center;
+        border-top: 10px solid white;
+        margin: 0px 80px;
+        color: white;
+        font-size: 50px;
+        font-weight: 500;
+        text-align: center;
+      }
+      .contact-container {
+        display: flex;
+        flex-direction: row;
+        margin-top: 56px;
+      }
+      .contact-item {
+        width: 300px;
+        border: 1px solid salmon;
+      }
+      .contact-item h6,
+      .contact-item p {
+        margin-left: 30%;
+      }
+      .contact-item h6 {
+        font-weight: 700;
+        font-size: 18px;
+        color: white;
+      }
+      .contact-item p {
+        font-weight: 400;
+        font-size: 14px;
+        color: white;
+      }
+      img {
+        border-radius: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- header -->
+    <nav class="nav-container">
+      <!-- left header -->
+      <div class="left-nav">sansan.</div>
+      <!-- right header -->
+      <div class="right-nav">
+        <a href="#service">service</a>
+        <a href="#portofolio">portofolio</a>
+        <a href="#contact">contact</a>
+        <a href="#me">about</a>
+      </div>
+    </nav>
+    <div class="page1" id="me">
+      <div class="img-container">
+        <img src="physics.jpg" width="800px" />
+      </div>
+      <div>
+        <h1>hello buddy, welcome to my world!</h1>
+        <p>
+          Introduce myself, my name is Sanishara Ramadhani as known as Sani, i
+          was born in 1998 in Surabaya, i lives in Klaten.
+        </p>
+        <p>
+          A Bachelor of Physics of Diponegoro University. I have a great
+          interest in quality control, analyst data, research and development,
+          then have strong point at a time management, organization skills, and
+          teamwork management.
+        </p>
+        <p>
+          Right now i learn how to be a fullstack specialist in PURWADHIKA
+          DIGITAL TECHNOLOGY SCHOOL, there are 2 step to be a fullstack
+          specialist, first we have to learn frontend and second is backend.
+        </p>
+      </div>
+    </div>
+    <div class="page2" id="portofolio">
+      <div class="journey">
+        <h1>my journey.</h1>
+        <div class="journey-content">
+          <h4>school</h4>
+          <a href="https://sekolahloka.com/data/sd-negeri-1-paseban/"
+            >SD Negeri 1 Paseban</a
+          >
+          <a
+            href="https://sekolah.data.kemdikbud.go.id/index.php/chome/profil/2006325A-2DF5-E011-BFA5-B3FAF3A8F9C1"
+            >SMP Negeri 1 Bayat
+          </a>
+          <a href="https://sman2klaten.sch.id/">SMA Negeri 2 Klaten </a>
+          <h4>college</h4>
+          <a href="https://www.undip.ac.id/">DIPONEGORO UNIVERSITY</a>
+          <h4>job</h4>
+          <a href="https://centralmegakencana.com/">PT.CENTRAL MEGA KENCANA</a>
+        </div>
+      </div>
+    </div>
+    <div class="contact" id="contact">
+      <div class="title">
+        <h3>Contact Us</h3>
+        <p>Thanks for your visit</p>
+      </div>
+      <div class="contact-container" id="service">
+        <div class="contact-item">
+          <h6>Address</h6>
+          <p>Kelurahan Melikan, Kecamatan Wedi, Kabupaten Klaten</p>
+        </div>
+        <div class="contact-item">
+          <h6>Email</h6>
+          <p>sanishara.ramadhani@gmail.com</p>
+        </div>
+        <div class="contact-item">
+          <h6>Phone Number</h6>
+          <p>085655960543</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
