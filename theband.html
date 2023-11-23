@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Band</title>
+    <style>
+      .navbar {
+        position: sticky;
+        top: 0;
+        background-color: black;
+        width: 100%;
+        font-size: 15px;
+        color: #fff !important;
+        display: flex;
+        z-index: 1;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+      a {
+        text-decoration: none;
+        padding: 12px 24px;
+        text-align: center;
+        text-transform: capitalize;
+        color: inherit;
+        display: block;
+      }
+      a:hover {
+        background-color: #cccccc;
+        color: black;
+      }
+      .flex {
+        display: flex;
+      }
+      body {
+        margin: 0;
+        font-family: sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .container {
+        max-width: 2000px;
+        width: 100%;
+      }
+      .container-img {
+        width: 100%;
+      }
+      .img-container {
+        display: flex;
+        align-items: flex-end;
+        /* pada saat direction dari flex adalah row */
+        /* align-items mengubah posisi dari sudut vertikal */
+        /* justify-content mengubah posisi dari sudut horizontal */
+        justify-content: center;
+        width: 100%;
+      }
+      .sub-title {
+        font-size: 15px;
+        position: absolute;
+        text-align: center;
+        color: white;
+        padding: 32px 16px;
+        height: 98px;
+      }
+      h3 {
+        font-size: 24px;
+        font-weight: 400;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin: 10px;
+      }
+      .center {
+        display: flex;
+        justify-content: center;
+      }
+      .band {
+        padding: 64px 16px;
+        max-width: 768px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .title {
+        margin: 10px 0px;
+        letter-spacing: 4px;
+        font-weight: 400;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-transform: capitalize;
+        font-size: 30px;
+        width: 100%;
+        text-align: center;
+      }
+      .content {
+        text-align: justify;
+        margin: 15px;
+      }
+      i {
+        color: #8f8f8f;
+      }
+      p {
+        width: 100%;
+      }
+      .memberband {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding: 32px 0 px;
+        width: 100%;
+      }
+      .member img {
+        aspect-ratio: 1;
+        max-width: 158px;
+      }
+      .member {
+        width: 100%;
+      }
+      .member p {
+        text-align: center;
+        text-transform: capitalize;
+      }
+
+    </style>
+  </head>
+  <body>
+    <!-- navbar -->
+    <div class="navbar">
+      <!-- content 1 -->
+      <div class="flex">
+        <a href="">home</a>
+        <a href="">band</a>
+        <a href="">tour</a>
+        <a href="">contact</a>
+        <a href="">more</a>
+      </div>
+      <!-- content 2 -->
+      <a href="">search</a>
+    </div>
+
+    <!-- container -->
+    <div class="container">
+      <!-- img container -->
+      <div class="img-container">
+        <!-- <img
+        class="slides"
+        src="https://www.w3schools.com/w3images/ny.jpg"
+        alt="band1"
+        width="100%"
+      /> -->
+        <img
+          src="https://www.w3schools.com/w3images/la.jpg"
+          alt="band2"
+          width="100%"
+        />
+        <div class="sub-title">
+          <h3>Los Angeles</h3>
+          <b> The atmosphere in Los Angeles is lorem ipsum</b>
+        </div>
+        <!-- <img
+        class="slides"
+        src="https://www.w3schools.com/w3images/chicago.jpg"
+        alt="band3"
+        width="100%"
+      /> -->
+        <!-- <script>
+        slideshow('.slides', 1500);
+      </script> -->
+      </div>
+    </div>
+    <div class="center">
+      <!-- band section -->
+      <div class="band">
+        <!-- title dan sub title band -->
+        <h1 class="title">the band</h1>
+        <p class="center">
+          <i>We love music</i>
+        </p>
+        <p class="content">
+          We have created a fictional band website. Lorem ipsum dolor sit amet,
+          consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+          labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+          exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+          dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est
+          laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt
+          ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+          nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat.
+        </p>
+      </div>
+    </div>
+    <div class="memberband">
+      <div class="member">
+        <p>name</p>
+        <div class="center">
+          <img
+            src="https://www.w3schools.com/w3css/img_bandmember.jpg"
+            alt="Name1"
+          />
+        </div>
+      </div>
+      <div class="member">
+        <p>name</p>
+        <div class="center">
+          <img
+            src="https://www.w3schools.com/w3css/img_bandmember.jpg"
+            alt="Name1"
+          />
+        </div>
+      </div>
+        <div class="member">
+          <p>name</p>
+          <div class="center">
+            <img
+            src="https://www.w3schools.com/w3css/img_bandmember.jpg"
+            alt="Name1"
+            />
+          </div>
+        </div>
+      <div>
+    </div>
+  </body>
+</html>
